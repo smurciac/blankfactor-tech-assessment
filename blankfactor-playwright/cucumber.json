@@ -1,0 +1,16 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "dryRun": false,
+    "paths": ["src/test/features/"],
+    "require": [
+      "src/test/steps/**/*-steps.ts",
+      "src/runner/hooks.ts",
+      "playwright.config.ts"
+    ],
+    "requireModule": ["ts-node/register"],
+    "format": ["html:test-results/cucumber-report.html"]
+  }
+}

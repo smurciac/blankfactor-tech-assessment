@@ -1,0 +1,7 @@
+# npm files
+package-lock.json
+node_modules
+
+# framework files
+test-results
+.env

@@ -1,0 +1,24 @@
+{
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "importOrder": ["^@core/(.*)$", "^@modules/(.*)$", "^@/(.*)$", "^[./]"],
+        "importOrderSeparation": true,
+        "importOrderSorts": {
+          "@core": 1,
+          "@modules": 2,
+          "@": 3,
+          "node": 4,
+          "all": 5
+        }
+      }
+    }
+  ]
+}
