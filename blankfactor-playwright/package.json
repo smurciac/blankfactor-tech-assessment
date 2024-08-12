@@ -7,7 +7,7 @@
     "test": "cucumber-js test"
   },
   "keywords": [],
-  "author": "",
+  "author": "Santiago Murcia",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^10.8.0",

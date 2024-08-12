@@ -4,7 +4,7 @@ require('dotenv').config();
 
 export default defineConfig({
   // Look for test files in the "tests" directory, relative to this configuration file.
-  testDir: 'test/features',
+  testDir: 'src/test/features',
 
   // Default timeout for Playwright.
   timeout: 5 * 60 * 1000,
